@@ -1,0 +1,314 @@
+/*set for pc > 960px */
+#menu-icon {
+	cursor: pointer;
+	display: none;
+	float: right;
+	height: 46px;
+	margin: 0;
+	position: relative;
+	width: 53px;
+}
+
+@media only screen and (max-width: 960px) {
+/*button menu */
+	
+#menu-icon:before {
+	background: #764602 none repeat scroll 0 0;
+	box-shadow: 0 0.5em 0 0 #764602, 0 1em 0 0 #764602;
+	content: "";
+	height: 0.15em;
+	left: 10px;
+	position: absolute;
+	top: 15px;
+	width: 2em;
+}
+#menu-icon {
+	display: block;
+}
+#header #gnavi {
+	text-align: left;
+	display: none;
+	width: 100%;
+	float: left;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.95, #FDD661), color-stop(0.00, #FAE033));
+	background: -webkit-linear-gradient(top, #FAE033 0%, #FDD661 95%);
+	background: -moz-linear-gradient(top, #FAE033 0%, #FDD661 95%);
+	background: -o-linear-gradient(top, #FAE033 0%, #FDD661 95%);
+	background: -ms-linear-gradient(top, #FAE033 0%, #FDD661 95%);
+	background: linear-gradient(top, #FAE033 0%, #FDD661 95%);
+}
+#header #gnavi li {
+	width: 100%;
+	background: none;
+	text-align: left;
+}
+#header #gnavi li a {
+	background: url("../images/common/bg_link_navi.png") no-repeat scroll 97% center;
+	border-bottom: 1px solid #F5C11F;
+	border-right: medium none;
+	display: block;
+	padding: 13px 13px 13px 3%;
+	text-align: left;
+	text-decoration: none;
+	width: auto;
+	margin: 0;
+}
+#header #gnavi li a:hover {
+	background: url("../images/common/bg_link_navi_ov.png") no-repeat scroll 97% center #764602;
+	border-radius: 0;
+}
+/* end : button menu */
+#container, #main, #header, #footer {
+	width: 100%;
+	float: none;
+	height: auto;
+}
+#content, #navi {
+	float: none;
+	width: 96%;
+	padding: 2%;
+}
+#navi .navi_tit {
+	background: url(../images/common/navi_h4bg.png) no-repeat 0 0 #58a501;
+	border-bottom: 3px solid #edce01;
+	height: 37px;
+}
+}
+
+@media only screen and (max-width: 800px) {
+#index .pro_list li,  #sanpham .pro_list li {
+	width: 48%;
+	margin: 0 4% 3% 0;
+	padding: 5px;
+}
+#index .pro_list li:nth-child(2n+2),  #sanpham .pro_list li:nth-child(2n+2) {
+	margin: 0 0 3% 0;
+}
+#index .news .news_img,  #index .news .news_con {
+	width: 100%;
+	float: none;
+	margin-bottom: 2%;
+}
+#index .news_list li {
+	width: 100%;
+	float: none;
+	margin: 0 0 2% 0;
+}
+#index .news_list .newsimg {
+	float: left;
+	width: 20%;
+}
+#index .news_list .news_list_con {
+	width: 78%;
+	float: right;
+}
+
+
+
+
+}
+
+
+@media only screen and (max-width: 640px) {
+
+
+#muahang .step li
+{
+	 float:none;
+	 margin:5% 0;
+}
+#muahang .stp{
+	width:100%;
+	float:none;
+	text-align:center;
+}
+
+#muahang .arrow { display:none;}
+
+#muahang .arrow2
+{
+	display:block;
+	float:none;
+	text-align:center;
+}
+
+#muahang .stp img,
+#muahang .arrow2 img { width:auto;}
+}
+
+
+@media only screen and (max-width: 550px) {
+#footer {
+	clear: both;
+	text-align: center;
+	background: url(../images/common/res_footer_bg.jpg) no-repeat 0 0;
+	margin: 0 auto;
+	color: #FFFFFF;
+	height: auto;
+}
+#footer .links {
+	line-height: 1;
+	margin: 0 0 3% 0;
+	background: none;
+}
+#footer .links li {
+	width: 100%;
+	background: none;
+	text-align: left;
+	padding: 0;
+}
+#footer .links li a {
+	background: url(../images/common/bg_link_footer.png) no-repeat scroll 97% center;
+	border-bottom: 1px solid #9dc643;
+	border-right: medium none;
+	display: block;
+	padding: 13px 13px 13px 3%;
+	text-align: left;
+	text-decoration: none;
+	width: auto;
+	margin: 0;
+}
+#footer .links li a:hover {
+	background: url(../images/common/bg_link_footer_ov.png) no-repeat scroll 97% center #FFFFFF;
+	border-radius: 0;
+	background-color: rgba(255,255,255,0.2);
+	color: #764602;
+}
+
+
+#tuvan .news .news_img 
+{
+	width:80%;
+	margin:0 auto 5% auto;
+	float:none;
+}
+
+  
+#tuvan .news .news_con
+{
+	width:100%;
+	float:none;
+}
+
+
+#tuvan .news_list {
+	width: 100%;
+	float: none;
+	margin-bottom: 2%;
+}
+#tuvan .news_list li {
+	width: 100%;
+	float: none;
+	margin: 0 0 2% 0;
+}
+#tuvan .news_list .news_listimg {
+	float: left;
+	width: 30%;
+}
+#tuvan .news_list .news_list_con {
+	width: 68%;
+	float: right;
+}
+
+
+
+#daily .map{
+	width:90%;
+	float:none;
+	margin:5% auto;
+	text-align:center;
+	
+}
+
+#daily .info{
+	width:100%;
+	float:none;
+}
+
+
+#lienhe .map,
+#lienhe .info
+{
+	width:100%;
+	float:none;
+	margin:5% 0;
+	
+}
+
+
+#lienhe .form_res { display:block;}
+#lienhe .tbl_form { display:none;}
+}
+
+@media only screen and (max-width: 320px) {
+h3 span {
+	font-size: 110%;
+	line-height: 1.9;
+}
+#index .news_list li {
+	width: 100%;
+	float: none;
+	padding: 4% 0;
+}
+#index .news_list .newsimg {
+	float: none;
+	width: 100%;
+}
+#index .news_list .news_list_con {
+	width: 100%;
+	float: none;
+}
+#index .pro_list li,  
+#sanpham .pro_list li, 
+#index .pro_list li:nth-child(2n+2),  
+#sanpham .pro_list li:nth-child(2n+2) {
+	width: 70%;
+	margin: 0 auto 5% auto;
+	padding: 5px;
+	float: none;
+}
+#index .pro_list li:nth-child(2n+2), 
+#sanpham .pro_list li:nth-child(2n+2),
+#sanpham .sp .sp_img {
+	width: 80%;
+	float: none;
+	margin: 0 auto;
+}
+#sanpham .sp dl {
+	width: 98%;
+	float: none;
+	margin: 5% 0;
+}
+
+
+
+#tuvan .news .news_img,
+#tuvan .news_list .news_listimg,
+#tuvan .news_list .news_list_con {
+	float: none;
+	width: 100%;
+}
+
+
+
+#tuvan .other .other_img,
+#tuvan .other .other_con
+{
+	width:100%;
+	float:none;
+
+}
+
+#tuvan .news,
+#tuvan .news_list,
+#tuvan .other
+{
+	margin:5% 0;
+}
+
+
+#lienhe .form_res
+{
+	width:100%;
+}
+}
